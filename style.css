@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: sans-serif;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: lightpink;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px 300px 0px;
+  text-align: center;
+}
+.title,
+.secret-number,
+.message,
+.scores,
+.input {
+  margin-bottom: 50px;
+}
+
+.again-btn {
+  margin: 10px;
+  position: fixed;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+/* ELEMENTS STYLE */
+
+.again-btn {
+  border: none;
+  background-color: transparent;
+}
+.again-btn:hover {
+  color: white;
+  font-size: 20px;
+}
+
+.check-btn {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px 0px 10px 0px;
+  margin-left: 90px;
+  width: 150px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+.secret-number {
+  border: 2px solid;
+  width: 120px;
+  padding: 5px;
+  margin-left: 100px;
+  font-size: 100px;
+}
+
+.check-btn:hover {
+  background-color: green;
+  color: white;
+  border-color: green;
+}
+.guess {
+  font-size: 30px;
+  text-align: center;
+}
+
+.scores {
+  font-family: 'Anton';
+  font-size: 1.7rem;
+}

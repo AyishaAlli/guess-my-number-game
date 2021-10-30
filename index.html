@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number Game</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+    
+    <button class="btn again-btn"><i class="fas fa-undo"></i></button>
+    <div class="container">
+      <header>
+        <div class="title">
+          <h1>GUESS MY NUMBER!</h1>
+         <p>(Between 1 and 20)</p>
+        </div>
+        
+      </header>
+      <main>
+        
+        <section class="main">
+          <div class="secret-number">?</div>
+          <p class="message" id="message">Start guessing...</p>
+          <div class="input">
+            <input type="number" class="guess" />
+          <button class="btn check-btn">Check Answer</button>
+          </div>
+          
+          <div class="scores">
+            <p class="label-score">Score: <span class="score">20</span></p>
+          <p class="label-highscore">
+            Highscore: <span class="highscore">0</span></p>
+        </div>
+        </section>
+    </div>
+    
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
